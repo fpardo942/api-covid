@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   </head>
+   
+<body>
+    <head>
+        <div class="header">
+            
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/COVID-19%2BRESPONSE_LOGO_OFFICIAL.png" id="logo">
+            
+
+                <div class="navBar">
+                    <a href="new_cases.html" id="newCases" >Nuevos casos</a>
+                    <a href="historical_cases.html" id="acumulated">Casos acumulados</a>
+                </div>
+            
+        </div>
+    </head>
+
+    <main>
+        <h1 class="title">Datos covid</h1>
+        <h2 class="subTitle">Ultimas 24 horas</h2>
+        <p>Elige tu comunidad autónoma</p>
+
+        
+        <div class="searcher">
+            <select name="comunities" id="comunities">
+                <!-- Opciones de la lista -->
+                <option value="andalucia">Andalucía</option>
+                <option value="aragon">Aragón</option>
+                <option value="asturias">Asturias</option>  
+                <option value="cataluna">Cataluña</option>
+                <option value="canarias">Canarias</option>
+                <option value="cantabria">Cantabria</option>
+                <option value="castilla_y_leon">Castilla La Mancha</option>
+                <option value="castilla-">Castilla y León</option>
+                <option value="ceuta">Ceuta</option>
+                <option value="extremadura">Extremadura</option>
+                <option value="galicia">Galicia</option>
+                <option value="baleares">Islas Baleares</option>
+                <option value="canarias">Islas Canarias</option>
+                <option value="la_rioja">La Rioja</option>
+                <option value="murcia">Murcia</option>
+                <option value="madrid">Madrid</option>
+                <option value="navarra">Navarra</option>
+                <option value="madrid">Madrid</option>
+                <option value="pais_vasco">País Vasco</option>
+                <option value="c_valenciana">Valencia</option>
+            </select>
+            <button type="submit" id="searchNewCasesButton" class="searchButton">Buscar</button>
+        </div>  
+        
+        <div id="newData"></div>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>          
+</body>
+</html>

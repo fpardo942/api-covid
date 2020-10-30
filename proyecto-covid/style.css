@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*
+{
+    font-family: 'Montserrat';
+}
+
+body
+{
+    margin: 0;
+    min-height: 100vh;
+    background-color: rgb(83, 108, 131);
+}
+.header
+{
+    background-color: rgb(38, 56, 73);
+    display: flex;
+    height: 100px;
+}
+
+#logo
+{
+    height: 80%;
+    width: auto;
+    margin: 0 4rem 0 0;
+}
+.navBar
+{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.navBar a
+{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(38, 56, 73);
+    border: none;
+    margin: 0 .5rem 0 .5rem;
+    font-size: 15px;
+}
+
+main
+{
+    background-color: rgb(83, 108, 131);
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.title
+{
+    margin: 0;
+    padding: 2rem 0 0 0;
+}
+
+.subTitle
+{
+    padding: 1rem 0 7rem 0;
+    margin: 0;
+}
+
+.historicalSearcher
+{
+    display: block;
+}
+
+.historicalSearcher select
+{
+    border-radius: 1rem;
+}
+
+.historicalSearcher button
+{
+    border-radius: 1rem;
+    margin: 0 0 0 .5rem;
+}
+
+.searchByDate input
+{
+    border-radius: 1rem;
+}
+
+.searcher select
+{
+    border-radius: 1rem;
+}
+
+.searcher button
+{
+    border-radius: 1rem;
+    margin: 0 0 0 .5rem;
+}
+
+.searcher
+{
+    padding: 0 0 2rem 0;
+}
+
+.data
+{
+    color: white;
+    text-align: center;
+}
+
+.divRecovered
+{
+    margin: .5rem 0 2rem 0;
+}
+
+.divConfirmed
+{
+    margin: .5rem 0 2rem 0;   
+}
+
+.divHospitalised
+{
+   margin: .5rem 0 2rem 0; 
+}
+
+.divIntensiveCare
+{
+    margin: .5rem 0 2rem 0;
+}
+
+.searchByDate
+{
+    padding: 0 0 4rem 0;
+}
